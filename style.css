@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  text-align: center;
+}
+
+.game-list {
+  display: grid;
+  gap: 15px;
+}
+
+.game-card {
+  display: block;
+  padding: 15px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.game-card:hover {
+  background: #0056b3;
+}
+
+.ad-box {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px dashed gray;
+}
