@@ -1,28 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mini Games Hub</title>
+  <title>Click Speed</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="container">
-  <h1>🎮 Mini Games</h1>
-  <p>Select a game to play</p>
+<h2>⚡ Click Speed Game</h2>
+<p>Time: <span id="time">10</span></p>
+<p>Score: <span id="score">0</span></p>
 
-  <div class="game-list">
-    <a href="click-speed/index.html" class="game-card">
-      ⚡ Click Speed Game
-    </a>
+<button onclick="clickBtn()" id="btn" disabled>CLICK</button>
+<br><br>
+<button onclick="startGame()">Start</button>
 
-    <a href="guess-number/index.html" class="game-card">
-      🔢 Guess the Number
-    </a>
-  </div>
-
-  <div class="ad-box">Advertisement</div>
-</div>
-
+<script src="game.js"></script>
 </body>
 </html>
