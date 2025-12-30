@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Guess Number</title>
+  <title>Mini Games Hub</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h2>🔢 Guess the Number (1–10)</h2>
-<input type="number" id="guess">
-<button onclick="check()">Guess</button>
-<p id="result"></p>
+<div class="container">
+  <h1>🎮 Mini Games</h1>
+  <p>Select a game to play</p>
 
-<script src="game.js"></script>
+  <div class="game-list">
+    <a href="click-speed/index.html" class="game-card">
+      ⚡ Click Speed Game
+    </a>
+
+    <a href="guess-number/index.html" class="game-card">
+      🔢 Guess the Number
+    </a>
+  </div>
+
+  <div class="ad-box">Advertisement</div>
+</div>
+
 </body>
 </html>
